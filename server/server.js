@@ -8,7 +8,9 @@ app.use(express.json());
 app.use(require("./routes/record"));
 // get driver connection
 const dbo = require("./db/conn");
- 
+//This will create a middleware.
+//When you navigate to the root page, it would use the built react-app
+app.use(express.static(path.resolve(__dirname, "./client/build"))); 
 app.listen(port, () => {
   // perform a database connection when server starts
   dbo.connectToServer(function (err) {
