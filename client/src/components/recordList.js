@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { HOST } from "../config";
 
 const Record = (props) => (
   <tr>
@@ -31,7 +32,7 @@ export default function RecordList() {
   // This method fetches the records from the database.
   useEffect(() => {
     async function getRecords() {
-      const response = await fetch(`https://my-mern2.herokuapp.com/record/`);
+      const response = await fetch(`${HOST}/record/`);
 
       if (!response.ok) {
         const message = `An error occurred: ${response.statusText}`;
@@ -50,7 +51,7 @@ export default function RecordList() {
 
   // This method will delete a record
   async function deleteRecord(id) {
-    await fetch(`http://localhost:5000/${id}`, {
+    await fetch(`${HOST}/${id}`, {
       method: "DELETE",
     });
 
