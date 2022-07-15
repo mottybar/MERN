@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prestart": "npm run build --prefix client", 
+    "install:client": "npm i --prefix client",
+    "build:client": "npm run build --prefix client",
+    "postinstall": "run-s install:client build:client",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +17,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "mongodb": "^4.4.1"
+    "mongodb": "^4.4.1",
+    "npm-run-all": "^4.1.5"
   }
 }
