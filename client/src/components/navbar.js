@@ -14,7 +14,7 @@ export default function Navbar() {
         <NavLink className="navbar-brand" to="/">
           <img
             style={{ width: 25 + "%" }}
-            src="https://mpng.subpng.com/20180409/pjw/kisspng-web-development-e-commerce-web-design-business-ecommerce-5acb95cded4bb7.572815971523291597972.jpg"
+            src="https://www.clipartkey.com/mpngs/m/25-256328_grocery-shopping-grocery-cart-food-shopping-cart-full.png"
           ></img>
         </NavLink>
         <button
