@@ -44,7 +44,7 @@ export default function Create() {
   // This following section will display the form that takes the input from the user.
   return (
     <div>
-      <h3>Create New Record</h3>
+      <h3>Create New Basket</h3>
       <br />
       <form onSubmit={onSubmit}>
         <div className="form-group">
