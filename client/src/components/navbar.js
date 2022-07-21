@@ -14,7 +14,7 @@ export default function Navbar() {
         <NavLink className="navbar-brand" to="/">
           <img
             style={{ width: 25 + "%" }}
-            src="https://select-statistics.co.uk/wp-content/uploads/2014/07/market-basket-analysis.jpg"
+            src="https://www.spinanalyticsandstrategy.com/blog/wp-content/uploads/2020/02/SPIN-Strategy-Market-Basket-Analysis-2020.jpg"
           ></img>
         </NavLink>
         <button
