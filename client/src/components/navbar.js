@@ -33,7 +33,7 @@ export default function Navbar() {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <NavLink className="nav-link" to="/create">
-                <h1>Create Record</h1>
+                Create Record
               </NavLink>
             </li>
           </ul>
