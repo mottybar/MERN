@@ -49,6 +49,7 @@ export default function Create() {
       <form onSubmit={onSubmit}>
         <div className="form-group">
           <div className="form-check form-check-inline">
+            <h3>Item 1</h3>
             <input
               className="form-check-input"
               type="radio"
