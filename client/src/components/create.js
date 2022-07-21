@@ -306,6 +306,7 @@ export default function Create() {
 
         <div className="form-group">
           <div className="form-check form-check-inline">
+            <h3>Item 2</h3>
             <input
               className="form-check-input"
               type="radio"
@@ -562,6 +563,7 @@ export default function Create() {
 
         <div className="form-group">
           <div className="form-check form-check-inline">
+            <h3>Item 3</h3>
             <input
               className="form-check-input"
               type="radio"
@@ -818,6 +820,7 @@ export default function Create() {
 
         <div className="form-group">
           <div className="form-check form-check-inline">
+            <h3>Item 4</h3>
             <input
               className="form-check-input"
               type="radio"
@@ -1074,6 +1077,7 @@ export default function Create() {
 
         <div className="form-group">
           <div className="form-check form-check-inline">
+            <h3>Item 5</h3>
             <input
               className="form-check-input"
               type="radio"
