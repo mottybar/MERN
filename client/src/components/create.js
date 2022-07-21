@@ -49,7 +49,7 @@ export default function Create() {
       <form onSubmit={onSubmit}>
         <div className="form-group">
           <div className="form-check form-check-inline">
-            <h3>Item 1</h3>
+            <h5>Item 1</h5>
             <input
               className="form-check-input"
               type="radio"
@@ -306,7 +306,7 @@ export default function Create() {
 
         <div className="form-group">
           <div className="form-check form-check-inline">
-            <h3>Item 2</h3>
+            <h5>Item 2</h5>
             <input
               className="form-check-input"
               type="radio"
@@ -563,7 +563,7 @@ export default function Create() {
 
         <div className="form-group">
           <div className="form-check form-check-inline">
-            <h3>Item 3</h3>
+            <h5>Item 3</h5>
             <input
               className="form-check-input"
               type="radio"
@@ -820,7 +820,7 @@ export default function Create() {
 
         <div className="form-group">
           <div className="form-check form-check-inline">
-            <h3>Item 4</h3>
+            <h5>Item 4</h5>
             <input
               className="form-check-input"
               type="radio"
@@ -1077,7 +1077,7 @@ export default function Create() {
 
         <div className="form-group">
           <div className="form-check form-check-inline">
-            <h3>Item 5</h3>
+            <h5>Item 5</h5>
             <input
               className="form-check-input"
               type="radio"
